@@ -1,0 +1,75 @@
+
+
+/******** 
+TARJETAS */
+
+/* mapa para botones en tarjetas */
+$botonesCards:(
+    primerBoton:red,
+    segundoBoton:blue,
+    tercerBoton:rgb(12, 190, 81));
+
+@each $btnC, $colores in $botonesCards {
+    .#{$btnC} {
+       
+        display: block;
+        align-content: center;
+        width: 40px;
+        height: 25px;
+        background-color: $colores;
+        color: $colores;
+        border-radius: 5px;
+        border: $colores;
+       
+    }
+}
+/* mapa para botones en tarjetas */
+
+/* estilos para texto */
+/* extedns para usar los botones */
+.textoCard{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px
+   
+}
+.textoboton{
+    color: black;
+    text-align: center;
+    text-transform: none;
+    text-decoration: none;
+    
+}
+
+.textoCard2{
+    @extend .textoCard;
+    color: red;
+   
+   
+}
+
+.textoCard3{
+@extend .textoCard;
+ color: chartreuse;
+
+}
+
+/* estilos para texto */
+
+@mixin tamaño ( $ancho, $altura){
+    width: $ancho;
+    height: $altura;
+}
+.DimBoton{
+    @include tamaño(100px,30px );
+
+     position: relative;
+     top: 0%;
+}
+  
+
+
+
+
+
+/* tarjetas 
+***********/

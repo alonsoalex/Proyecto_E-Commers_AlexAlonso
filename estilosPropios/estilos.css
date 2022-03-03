@@ -1,0 +1,299 @@
+/*SASS */
+/* header */
+.btn-registrarse {
+  color: #ffecec;
+  background-color: #3d07ff;
+  border-color: #0896e9; }
+
+/* header */
+/* FORMULARIO */
+.contactBody {
+  background-color: white;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px; }
+
+.form {
+  background: #EBEBEB;
+  text-align: center;
+  box-shadow: 0px 0px 20px 5px #AAA;
+  border-radius: 10px;
+  width: 45%;
+  height: 400px;
+  margin: 30px auto 0 auto;
+  padding: 10px 10px;
+  animation: bounce 1.5s infinite; }
+  .form .name {
+    background-color: #0896e9;
+    border-bottom: 5px solid #B2175F;
+    color: white;
+    width: 100%; }
+    .form .name:hover {
+      background-color: #0896e9; }
+  .form .email {
+    background-color: #0896e9;
+    border-bottom: 5px solid #0896e9;
+    height: 50px;
+    width: 100%; }
+    .form .email:hover {
+      background-color: #0896e9; }
+  .form .message {
+    background-color: #0896e9;
+    border-bottom: 5px solid #0896e9;
+    overflow: hidden;
+    height: 100px;
+    width: 100%; }
+    .form .message:hover {
+      background-color: #0896e9; }
+  .form .enviar {
+    display: block;
+    position: relative;
+    padding-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #0096ec;
+    border: none;
+    border-bottom: 5px solid #0896e9;
+    transform: translateY(-120px); }
+    .form .enviar:hover {
+      background-color: #0896e9; }
+  .form .shadow {
+    box-shadow: 0px 0px 60px 5px #AAA;
+    opacity: 0.5;
+    border-radius: 100px;
+    width: 50%;
+    margin: 50px auto 0 auto;
+    padding: 0 20px;
+    animation: shadow 1.5s infinite; }
+  .form .wrapper {
+    width: 80%;
+    height: 50%;
+    margin: 5% auto 0 auto; }
+  .form ::-webkit-input-placeholder {
+    color: white;
+    font-size: 20px; }
+  .form .entry {
+    display: block;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.5s ease 0s;
+    box-shadow: 0px 0px 25px 2px #AAA; }
+  .form .botonEnviar {
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    margin: 125px auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: white; }
+    .form .botonBorrar{
+      display: block;
+      position: relative;
+      top: -155px;
+      left:50px;
+      border-radius: 5px;
+      padding: 10px;
+      background-color: #0096ec;
+      border: none;
+      border-bottom: 5px solid #0896e9;
+      transform: translateY(-120px);
+    color: white; }
+      
+   @media (max-width:480px){
+    .contactBody {
+      background-color: white;
+      background-size: cover;
+      background-attachment: fixed;
+      height: 700px; }
+    
+    .form {
+      background: #EBEBEB;
+      text-align: center;
+      box-shadow: 0px 0px 20px 5px #AAA;
+      border-radius: 10px;
+      width: 45%;
+      height: 400px;
+      margin: 30px auto 0 auto;
+      padding: 10px 10px;
+      animation: bounce 1.5s infinite; }
+      .form .name {
+        background-color: #e90808;
+        border-bottom: 5px solid #B2175F;
+        color: white;
+        width: 100%; }
+        .form .name:hover {
+          background-color: #0896e9; }
+      .form .email {
+        background-color: #0896e9;
+        border-bottom: 5px solid #0896e9;
+        height: 50px;
+        width: 100%; }
+        .form .email:hover {
+          background-color: #0896e9; }
+      .form .message {
+        background-color: #0896e9;
+        border-bottom: 5px solid #0896e9;
+        overflow: hidden;
+        height: 100px;
+        width: 100%; }
+        .form .message:hover {
+          background-color: #0896e9; }
+      .form .enviar {
+        display: block;
+        position: relative;
+        padding-top: 20px;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #0896e9;
+        border: none;
+        border-bottom: 5px solid #0896e9;
+        transform: translateY(-120px); }
+        .form .enviar:hover {
+          background-color: #0896e9; }
+      .form .shadow {
+        box-shadow: 0px 0px 60px 5px #AAA;
+        opacity: 0.5;
+        border-radius: 100px;
+        width: 50%;
+        margin: 50px auto 0 auto;
+        padding: 0 20px;
+        animation: shadow 1.5s infinite; }
+      .form .wrapper {
+        width: 80%;
+        height: 50%;
+        margin: 5% auto 0 auto; }
+      .form ::-webkit-input-placeholder {
+        color: white;
+        font-size: 20px; }
+      .form .entry {
+        display: block;
+        margin: 30px auto;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        transition: all 0.5s ease 0s;
+        box-shadow: 0px 0px 25px 2px #AAA; }
+      .form .botonEnviar {
+        display: flex;
+        position: relative;
+        top: 20px;
+        left: 50px;
+        margin: 125px auto;
+        padding: 10px;
+        border-radius: 5px;
+        color: white; }
+        .form .botonBorrar{
+          display: block;
+          position: relative;
+          top: -155px;
+          left:20px;
+          border-radius: 5px;
+          padding: 10px;
+          background-color: #0096ec;
+          border: none;
+          border-bottom: 5px solid #0896e9;
+          transform: translateY(-120px);
+        color: white; }
+   }
+
+/* FORMULARIO */
+/******** 
+TARJETAS */
+/* mapa para botones en tarjetas */
+.primerBoton {
+  display: block;
+  align-content: center;
+  width: 40px;
+  height: 25px;
+  background-color: red;
+  color: red;
+  border-radius: 5px;
+  border: red; }
+
+.segundoBoton {
+  display: block;
+  align-content: center;
+  width: 40px;
+  height: 25px;
+  background-color: blue;
+  color: blue;
+  border-radius: 5px;
+  border: blue; }
+
+.tercerBoton {
+  display: block;
+  align-content: center;
+  width: 40px;
+  height: 25px;
+  background-color: #0cbe51;
+  color: #0cbe51;
+  border-radius: 5px;
+  border: #0cbe51; }
+
+/* mapa para botones en tarjetas */
+/* estilos para texto */
+/* extedns para usar los botones */
+.textoCard, .textoCard2, .textoCard3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px; }
+
+.textoboton {
+  color: black;
+  text-align: center;
+  text-transform: none;
+  text-decoration: none; }
+
+.textoCard2 {
+  color: red; }
+
+.textoCard3 {
+  color: chartreuse; }
+
+/* estilos para texto */
+.DimBoton {
+  width: 100px;
+  height: 30px;
+  position: relative;
+  top: 0%; }
+
+/* img en tarjetas */
+.cardIMG1{
+display: flex;
+
+width: 200px;
+
+
+}
+/* img en tarjetas */
+/* tarjetas 
+***********/
+
+/* boton wats */
+
+.botonWp{
+	position:fixed;
+	width:60px;
+  bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.botonWp:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-botonWp{
+	margin-top:16px;
+}
+
+/* boton wats */

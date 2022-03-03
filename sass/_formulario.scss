@@ -1,0 +1,120 @@
+/* FORMULARIO */
+.contactBody {
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+
+
+}
+
+
+.form {
+    background: #EBEBEB;
+    text-align: center;
+    box-shadow: 0px 0px 20px 5px #AAA;
+    border-radius: 10px;
+    width: 45%;
+    height: 400px;
+    margin: 30px auto 0 auto;
+    padding: 10px 10px;
+    animation: bounce 1.5s infinite;
+
+    .name {
+        background-color: #0896e9;
+        border-bottom: 5px solid #B2175F;
+        color: white;
+        width: 300px;
+
+        &:hover {
+            background-color: #0896e9;
+        }
+    }
+
+    .email {
+        background-color: #0896e9;
+        border-bottom: 5px solid#0896e9;
+        height: 50px;
+        width: 300px;
+
+        &:hover {
+            background-color: #0896e9;
+        }
+    }
+
+    .message {
+        background-color: #0896e9;
+        border-bottom: 5px solid #0896e9;
+        overflow: hidden;
+        height: 100px;
+        width: 300px;
+
+        &:hover {
+            background-color: #0896e9;
+        }
+
+    }
+
+    .enviar {
+        display: block;
+        padding-top: 20px;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #0096ec;
+        border: none;
+        border-bottom: 5px solid #0896e9;
+        transform: translateY(-120px);
+
+        &:hover {
+            background-color: #0896e9;
+        }
+    }
+
+
+    .shadow {
+        box-shadow: 0px 0px 60px 5px #AAA;
+        opacity: 0.5;
+        border-radius: 100px;
+        width: 50%;
+        margin: 50px auto 0 auto;
+        padding: 0 20px;
+        animation: shadow 1.5s infinite;
+    }
+
+
+
+
+    .wrapper {
+        width: 80%;
+        height: 50%;
+        margin: 5% auto 0 auto;
+    }
+
+
+    ::-webkit-input-placeholder {
+        color: white;
+        font-size: 20px;
+    }
+
+    .entry {
+        display: block;
+        margin: 30px auto;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        transition: all 0.5s ease 0s;
+        box-shadow: 0px 0px 25px 2px #AAA;
+    }
+
+    .botonEnviar {
+        display: flex;
+        position: relative;
+        top: 20px;
+        margin: 125px auto;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+    }
+}
+
+/* FORMULARIO */
